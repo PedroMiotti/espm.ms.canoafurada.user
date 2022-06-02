@@ -7,6 +7,8 @@ public class UserDto {
     private UUID id;
     private String name;
     private String document;
+    private String cellphone;
+
 
     public UUID getId() {
         return id;
@@ -40,5 +42,4 @@ public class UserDto {
         this.cellphone = cellphone;
     }
 
-    private String cellphone;
 }
